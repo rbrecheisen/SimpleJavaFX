@@ -23,4 +23,9 @@ Template (example) project for JavaFX programs
 # Initialize project
 - gradle init --type java-application --dsl kotlin
 - Create file app/build.gradle.kts
-- ./gradlew :app:run
+- gradlew.bat :app:run --no-configuration-cache
+
+
+# Run existing project
+- gradle wrapper
+- gradlew.bat :app:run --no-configuration-cache
