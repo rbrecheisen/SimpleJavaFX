@@ -1,4 +1,4 @@
 @echo off
 
 rmdir /s /q app\build
-call gradlew.bat createLaunchers
+call gradlew.bat createLaunchers -x test

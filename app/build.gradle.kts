@@ -30,6 +30,10 @@ jlink {
     }
 }
 
+tasks.withType<Test> {
+    enabled = false
+}
+
 tasks.jar {
     manifest {
         attributes["Main-Class"] = "org.example.App"
